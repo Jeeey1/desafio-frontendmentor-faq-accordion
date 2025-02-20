@@ -30,9 +30,10 @@ body {
   z-index: 1000;
   margin-top: 100px;
   border-radius: 10px;
-  max-width: 650px;
+  width: 650px;
   padding: 40px;
   margin-bottom: 100px;
+  box-shadow: 0 0 25px #555;
 }
 
 .title-faq{
@@ -52,7 +53,7 @@ body {
   justify-content: space-between;
   margin-top: 15px;
   padding-bottom: 30px;
-  font-weight: 800;
+  font-weight: 700;
   color: hsl(292, 42%, 14%);
   font-size: 20px;
   cursor: pointer;
@@ -64,7 +65,7 @@ body {
 
 .info-faq dd {
   color: grey;
-  line-height: 1.7;
+  line-height: 1.5;
   padding-bottom: 30px;
   display: none;
 }
